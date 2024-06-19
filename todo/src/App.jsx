@@ -48,12 +48,11 @@ export default function App() {
           todos.map((todo, index) => (
             <div
               key={`todo-${index}`}
-              className="bg-white/10 rounded p-4 flex flex-row justify-between"
+              className="bg-white/10 rounded p-4 flex flex-row justify-between items-center"
             >
-              <span className="select-none">{todo}</span>
+              <span>{todo}</span>
               <span
-                className="text-red-500 cursor-pointer hover:bg-red-500
-                hover:text-white rounded-full p-1 size-5 text-center items-center" 
+                className="text-red-500 cursor-pointer hover:bg-red-500 hover:text-white rounded-full p-1 w-6 h-6 flex items-center justify-center" 
                 onClick={() => removeTodo(index)}
               >
                 x
