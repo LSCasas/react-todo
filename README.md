@@ -20,6 +20,7 @@ A minimal and responsive Todo application built with React and Tailwind CSS. Thi
 
 ## Project Structure
 
+
 ```
 react-todo/
 ├── public/               # Static files
